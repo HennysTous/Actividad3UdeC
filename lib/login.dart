@@ -104,7 +104,7 @@ class _LoginPageState extends State<LoginPage> {
         }
       }
     }
-
+    print(savedUsers);
     // No se encontró un usuario con el nombre de usuario y la contraseña proporcionados
     return false;
   }
